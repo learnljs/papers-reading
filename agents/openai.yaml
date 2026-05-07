@@ -1,0 +1,7 @@
+interface:
+  display_name: "Papers_Reading"
+  short_description: "把中英文论文整理成中文论文阅读材料，默认输出 PPT 提纲版"
+  default_prompt: "使用 $papers-reading 阅读这篇论文，并输出中文的 PPT 提纲版。若我明确要求，再补讲稿详版、3-5分钟口头汇报稿或术语拓展学习。"
+
+policy:
+  allow_implicit_invocation: true
